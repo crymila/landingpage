@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 220px 220px 220px ;
-    background-image:linear-gradient(#c8a2c891,rgb(0, 0, 0)), url(/img/bg/bg.jpg);
+    background-image:linear-gradient(#c8a2c891,rgb(0, 0, 0)), url(https://raw.githubusercontent.com/crymila/landingpage/main/img/bg/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ transform: scale(1.2);
 }
 .foto1{
 
-    background-image: url(/img/recursos/foto1.jpg);
+    background-image: url(https://raw.githubusercontent.com/crymila/landingpage/main/img/recursos/foto1.jpg);
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ transform: scale(1.2);
 
 .foto2{
    
-    background-image: url(/img/recursos/foto2.jpg);
+    background-image: url(https://raw.githubusercontent.com/crymila/landingpage/main/img/recursos/foto2.jpg);
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ transform: scale(1.2);
 }
 .foto3{
    
-    background-image: url(/img/recursos/imagen33.jpg);
+    background-image: url(https://raw.githubusercontent.com/crymila/landingpage/main/img/recursos/imagen33.jpg);
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ transform: scale(1.2);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
-    background-image:linear-gradient(black, hsla(300, 26%, 71%, 0.569)), url(/img/bg/bg2.jpg);
+    background-image:linear-gradient(black, hsla(300, 26%, 71%, 0.569)), url(https://raw.githubusercontent.com/crymila/landingpage/main/img/bg/bg2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ transform: scale(1.2);
 }
 
 .fotosingle{
-    background-image: url(/img/recursos/fotosingle.jpg);
+    background-image: url(https://raw.githubusercontent.com/crymila/landingpage/main/img/recursos/fotosingle.jpg);
     width: 300px ;
     height: 300px;
     align-self: center;
@@ -130,7 +130,12 @@ transform: scale(1.2);
     background-repeat: no-repeat;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+    transition: 0.5s;
 
+}
+
+.fotosingle:hover{
+    transform: scale(1.2);
 }
 
 .debut{
@@ -165,7 +170,7 @@ transform: scale(1.2);
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
     background-image:linear-gradient(hsla(300, 26%, 71%, 0.781), black),
-     url(/img/bg/star.jpg);
+     url(https://raw.githubusercontent.com/crymila/landingpage/main/img/bg/star.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,7 +236,7 @@ transform: scale(1.2);
 
 
 .fotoep{
-    background-image: url(/img/recursos/album.jpg);
+    background-image: url(https://raw.githubusercontent.com/crymila/landingpage/main/img/recursos/album.jpg);
     width: 300px ;
     height: 300px;
     align-self: left;
@@ -291,7 +296,7 @@ transform: scale(1.2);
     grid-template-columns: 1fr;
     grid-template-rows: 200px 1fr;
     background-image:linear-gradient(rgba(0, 0, 0, 0.623),hsla(300, 26%, 71%, 0.705)),
-     url(/img/recursos/seccion4.jpg);
+     url(https://raw.githubusercontent.com/crymila/landingpage/main/img/recursos/seccion4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
